@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background-color: rgb(139, 6, 0);
+  width: 40%;
+  height: 200px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border-radius: 10px;
+  row-gap: 20px;
+}
+div.show {
+  width: 95%;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  border-radius: 10px;
+  text-align: center;
+}
+button.ok {
+  width: 60px;
+  height: 25px;
+  border: none;
+  background-color: rgb(202,52,33);
+  box-shadow: 3px 3px 3px black;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+button.reset {
+  width: 60px;
+  height: 25px;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 10px;
+  background-color: rgb(202,52,33);
+  font-size: 17px;
+
+}
+div.doc {
+  width: 570px;
+  height: 100px;
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+}
+
+div.chap {
+  width: 350px;
+  height: 90px;
+  background-color: rgb(255, 220, 115);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  row-gap: 8px;
+}
+div.chap > p {
+  font-size: 20px;
+}
+div.chap > input#text {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+div.ras {
+  width: 200px;
+  height: 90px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+gap: 20px;
+}
+div.ras > img {
+  width: 100px;
+  height: 100px;
+}
+div.but{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
